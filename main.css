@@ -1,0 +1,342 @@
+/*pm_acc css*/
+#pmtitleFrom{
+  font-size: 1.6em;
+  position:relative;
+  top:80px;
+  left:-530px;
+  color:#808A87;
+}
+
+#date-time{
+  position:relative;
+  top:75px;
+  left:-500px;
+  font-size: 2.0em;
+  color:#4F4F4F;
+}
+#date-end-time{
+  position:relative;
+  top:-60px;
+  left:-500px;
+  font-size: 2.0em;
+  color:#4F4F4F;
+}
+
+#pmtitleTo{
+  font-size: 1.6em;
+  position:relative;
+  top:-60px;
+  left:-545px;
+  color:#808A87;
+}
+
+#pm-canvas{
+  position:relative;
+  left:500;
+}
+
+#date-line{
+  position:relative;
+  left:-420px;
+  top:-70px;
+}
+#date-line-end{
+  position:relative;
+  left:-420px;
+  top:-130px;
+}
+.end{
+  position:relative;
+  top:20px;
+  right:350px;
+}
+.start{
+  position:relative;
+  top:20px;
+  right:350px;
+}
+
+/*immPM css*/
+#pm2titleFrom{
+  position:relative;
+  left:100px;
+  font-size: 1.8em;
+  color:#4F4F4F;
+  top:-40px;
+}
+#pm2titleEnd{
+  position:relative;
+  left:140px;
+  font-size: 1.8em;
+  color:#4F4F4F;
+  top:-40px;
+}
+#pm2titleCurrent{
+  position:relative;
+  left:190px;
+  font-size: 1.8em;
+  color:#4F4F4F;
+  top:-40px;
+}
+
+
+
+/* 整個地圖區域設定 */
+
+.entry-text {
+  width: 120px;
+}
+
+.entry-bar {
+  background-color: #8c8;
+}
+
+/* https://stackoverflow.com/questions/16265123/resize-svg-when-window-is-resized-in-d3-js */
+.rsvg-container {
+    width: 1100px;
+    height: 0px;
+    position:relative;
+    top:-650px; 
+    left:-250px;
+     /* aspect ratio */
+    vertical-align: top;
+}
+.rsvg-container-1 {
+    width: 900px;
+    height: 0px;
+    position:relative;
+    top:-500px; 
+    left:300px;
+     /* aspect ratio */
+    vertical-align: top;
+}
+.rsvg-content {
+    display: inline-block;
+    position: relative;
+    bottom: : 0px;
+    left: 100px;
+}
+
+
+.imm-button{
+  margin-top: 20px;
+}
+
+/*svg path.town {
+  stroke-width: 0.5px;
+  fill: #aaa; 
+  stroke: #000;
+}
+*/
+
+svg text.town {
+  stroke: #204;
+  stroke-width: 0.5px;
+  /* http://lea.verou.me/2013/03/easily-center-text-vertically-with-svg/ */
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+
+#color-legend{
+  position:relative;
+  left:-250px;
+  top:0px;
+}
+
+#slider-group{
+  position:relative;
+  left:100px;
+  top:-120px;
+  width: 600px;
+}
+
+.pm2container{
+  height:400px;
+}
+
+#slider-group-imm{
+  position:relative;
+  left:440px;
+  top:40px;
+  width: 800px;
+}
+
+#imm-button{
+  position:relative;
+  left:450px;
+  top:-20px;
+}
+
+#imm-color-legend-bar{
+  position:relative;
+  top:150px;
+  left:150px;
+}
+
+/*taichung traffic*/
+.date_info{
+  position:relative;
+  top: 20px;
+  left:-400px;
+}
+.acc_date_info{
+  position:relative;
+  top: 20px;
+  left:35px;
+}
+    
+.map{
+  margin-left:315px;
+  margin-top:45px;
+}
+    
+.busy_button,.nobusy_botton{
+  margin-left: 35px;
+  height: 20px ;
+  width: 100px;
+}
+#slider-start,#slider-end{
+  width:600px;
+  margin-left:35px;
+}
+.start,.end{
+  margin-left:35px;
+}
+.date{
+  position:relative;
+  left:-200px;
+}
+#text-start-line,#text-end-line{
+  height:0px;
+}
+#trafmap{
+    position:relative;
+    top:-300px;
+    left:500px;
+}
+#tai_traf_From{
+    font-size: 1.6em;
+    position:relative;
+    top:0px;
+    left:-110px;
+    color:#808A87;
+}   
+.tai_date{
+    position:relative;
+    left:-80px;
+    font-size: 2.0em;
+    color:#4F4F4F;
+}
+#tai_traf_To{
+    font-size: 1.6em;
+    position:relative;
+    top:0px;
+    left:-120px;
+    color:#808A87;
+}
+
+.tai_enddate{
+    position:relative;
+    left:-73px;
+    font-size: 2.0em;
+    color:#4F4F4F;
+}
+.legend{
+    position:relative;
+    top:50px;
+    left:200px;
+}
+.tai_slider_group{
+    position:relative;
+    top:-80px;
+    left:0px;
+}
+.tai_end{
+    position: relative;
+    top:30px;
+    left:-2px;
+}
+.busy_button{
+    position: relative;
+    top:-130px;
+    left:-300px;
+}
+.nobusy_botton{
+    position: relative;
+    top:-130px;
+    left:-300px;
+}
+.tai_container{
+    height: 500px;
+}
+.tai_start{
+    position: relative;
+    left:-550px;
+    top:-5px;
+}
+.tai_end{
+    position: relative;
+    top:-10px;
+    left:-550px;
+}
+
+/* acc taichung */
+#acc_traf_From{
+    position: relative;
+    right:-100px;
+    top:-50px;
+    font-size: 1.6em;
+    color:#808A87;
+} 
+#acc_traf_To{
+    position: relative;
+    right:-150px;
+    top:-50px;
+    font-size: 1.6em;
+    color:#808A87;
+}
+.acc_date{
+    position: relative;
+    right:-230px;
+    top:-86px;
+    font-size: 2.0em;
+}
+.acc_enddate{
+    position: relative;
+    right:-285px;
+    top:-86px;
+    font-size: 2.0em;
+}
+#acc-traf-pm-canvas{
+    position:relative;
+    right:450px;
+    top:-300px;
+}
+#acc_legend{
+    position: relative;
+    top:-30px;
+    left:350px;
+}
+#acc_slider_group{
+    position: relative;
+    top:-300px;
+    left:300px;
+}
+#acc-traf-slider-start,#acc-traf-slider-end{
+  position: relative;
+  width:500px;
+  left: 700px;
+  top: -100px;
+}
+.acc_traf_container{
+    height: 500px;
+}
+#acc-traf-text-month-min,#acc-traf-text-month-max{
+  font-size: 1.2em;
+}
+
+
+
+
+
+
